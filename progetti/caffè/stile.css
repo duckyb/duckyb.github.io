@@ -1,0 +1,127 @@
+@font-face {
+  font-family: Milkshake;
+  src: url("fonts/Milkshake/Milkshake.otf");
+  font-family: Roboto-Regular;
+  src: url("fonts/Roboto-Regular.ttf");
+  font-family: OpenSans;
+  src: url("fonts/OpenSans-Semibold.ttf");
+}
+body {
+  background-image: url("img/bgblack.png");
+}
+.row {
+  width: 350px;
+  margin: auto;
+  text-align: center;
+}
+img {
+  bottom: 0px;
+  height: 100px;
+  width: 100px;
+  display: inline-block;
+  margin: 130px auto auto auto;
+}
+h1 {
+  color: white;
+  font-family: Milkshake, cursive;
+  font-size: 4em;
+  bottom: 0px;
+  display: inline-block;
+  margin: 130px auto -40px -25px;
+}
+.content {
+  position: relative;
+  border: 5px solid #724E41;
+  border-radius: 25px;
+  width: 320px;
+  margin: auto;
+  padding: 20px 15px;
+  background-image: url("img/Coffee-beans-3.jpg");
+}
+input {
+  margin: 4px;
+  height: 1.50em;
+}
+input[type="text"], input[type="number"] {
+  padding-left: 5px;
+  font-family: OpenSans, monospace;
+  font-weight: bold;
+  background-color: #EFF6F7;
+  border-style: solid;
+  border-color: #724E41;
+  border-radius: 5px;
+}
+input[type="button"] {
+  font-family: OpenSans, sans-serif;
+  color: #EFF6F7;
+  background-color: #656A6A;
+  border-color: #402627;
+  border-width: 3px;
+  border-radius: 5px;
+  border-style: solid;
+  height: 26px;
+  width: 121.61px;
+}
+input[type="button"]:hover {
+  background-color: #8F6A54;
+}
+input[type="button"]:active {
+  background-color: #B59267;
+}
+input[readonly="readonly"] {
+  text-align: center;
+  background-color: #656A6A;
+  color: #EFF6F7;
+  border-style: solid;
+}
+#codiceUtente {
+  margin-bottom: 2em;
+}
+#numeroCapsule {
+  margin-bottom: 2em;
+}
+.contatore {
+  overflow: hidden;
+  background-color: #F9F3D9;
+  border: 5px solid #724E41;
+  border-radius: 0px 0px 25px 25px;
+  width: 100px;
+  height: 61px;
+  margin: auto;
+  text-align: center;
+  margin-top: -4px;
+}
+#conta {
+  font-family: monospace;
+  margin: 0;
+  padding: 0;
+  font-size: 4em;
+  color: #724E41;
+}
+#errPrimo, #errSecondo {
+  opacity: 0;
+  z-index: -1;
+  font-family: OpenSans, sans-serif;
+  font-style: italic;
+  border: thin solid #EF5350;
+  color: #EF5350;
+  background-color: #EFF6F7;
+  position: absolute;
+  display: block;
+  width: 200px;
+  max-height: 45px;
+  padding: 4px;
+  border-radius: 5px;
+
+  text-align: left;
+  text-shadow: 0px 0px 13px rgba(255, 255, 255, 1);
+  transition: font-size 0.2s;
+}
+#errPrimo {
+  right: -15px;
+  top: 54px;
+}
+#errSecondo {
+  right: -15px;
+  top: 145px;
+}

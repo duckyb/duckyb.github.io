@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="stile.css">
+    <script src="script.js" charset="utf-8"></script>
+    <title>Distributore di Caffè</title>
+  </head>
+  <body>
+    <div class="row">
+      <img src="img/2615.svg" alt="Emoji Tazzina di Caffe"/>
+    </div>
+    <div class="content">
+      <!-- Inserimento delle capsule -->
+      <input type="number" id="numeroCapsule" placeholder="Numero di Capsule"/>
+      <input type="button" id="insCapsule" value="AGGIUNGI"/>
+      <span id="errPrimo"></span>
+      <br/>
+      <!-- Erogazione dei caffè -->
+      <input type="number" id="numeroCaffe" placeholder="Numero di Caffè"/>
+      <br/>
+      <input type="text" id="codiceUtente" placeholder="Codice Utente"/>
+      <input type="button" id="erogaCaffe" value="EROGA"/>
+      <span id="errSecondo"></span>
+      <br/>
+      <!-- Visualizzazione del rapporto -->
+      <input type="text" id="rapportoUtente" placeholder="Codice Utente"/>
+      <br/>
+      <input type="button" id="eseguiRapporto" value="Visualizza Spesa"/>
+      <input type="text" id="spesaTot" readonly="readonly"/>
+    </div>
+    <div class="contatore">
+      <span id="conta"></span>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <script src="sveglia.js" charset="utf-8"></script>
+  <link rel="stylesheet" href="stile.css">
+  <title>Sveglia Interattiva</title>
+</head>
+<body>
+  <div class="outer">
+    <span id="errorCode"></span>
+    <img src="img/dormi.svg" alt="emoji" id="emoji"/>
+    <div class="content">
+      <!-- imposta l'orario corrente -->
+      <input type="text" id="oraCorrente" placeholder="Ore" maxlength="2"/>
+      <input type="text" id="minCorrente" placeholder="Minuti" maxlength="2"/>
+      <input type="button" id="impostaOra" class="btn" value="Imposta Ora"/>
+      <br/>
+      <!-- imposta l'orario di sveglia -->
+      <input type="text" id="oraSveglia" placeholder="Ore" maxlength="2"/>
+      <input type="text" id="minSveglia" placeholder="Minuti" maxlength="2"/>
+      <input type="button" id="impostaSveglia" class="btn" value="Imposta Sveglia"/>
+      <br/>
+      <!-- aggiungi i minuti fino a suonare -->
+      <input type="text" id="oraImpostata" readonly="readonly"/>
+      <input type="text" id="svegliaImpostata" readonly="readonly"/>
+      <input type="button" id="addMin" class="btn" value="+1 Minuto"/>
+    </div>
+  </div>
+</body>
+</html>
