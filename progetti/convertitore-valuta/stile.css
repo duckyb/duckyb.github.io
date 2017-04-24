@@ -1,0 +1,33 @@
+
+
+body {
+  background-image: url("congruent_outline.png");
+}
+label {
+  font-family: Verdana, sans-serif;
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
+}
+input {
+  margin: 1px;
+}
+h1 {
+  color: white;
+  font-family: Verdana;
+  font-style: italic;
+  text-align: center;
+  margin-top: 15%;
+}
+span {
+  color: red;
+}
+
+/*Contenuto principale*/
+.content {
+  background-color: gray;
+  border-radius: 20px;
+  margin: auto;
+  width: 50%;
+  border: 3px solid orange;
+  padding: 10px;
+}

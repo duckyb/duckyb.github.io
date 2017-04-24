@@ -1,0 +1,44 @@
+<!--<!DOCTYPE html> -->
+<html>
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="stile.css">
+		<script src="ConvertitoreValuta.js"></script>
+		<title>Covertitore di Valuta</title>
+	</head>
+	<body>
+		<h1>Convertitore Di Valuta</h1>
+		<div class="content">
+			<!-- sezione superiore -->
+			<input type="text"
+			placeholder="EUR"
+			id="valuta"/>
+			<label>Valuta</label>
+			<br />
+			<input type="text"
+			placeholder="2"
+			id="fattore"/>
+			<label>Fattore di conversione</label>
+			<br />
+			<input type="button"
+			id="imposta"
+			value="Imposta"/>
+			<span id="messaggioImposta"></span>
+			<hr />
+			<!-- sezione inferiore -->
+			<input type="text"
+			id="importo"/>
+			<label>Importo da convertire</label>
+			<br />
+			<input type="button"
+			id="converti"
+			value="Converti"/>
+			<span id="messaggioConverti"></span>
+			<br />
+			<input type="text"
+			id="risultato"
+			readonly="readonly"/>
+			<label>Importo convertito</label>
+		</div>
+	</body>
+</html>
