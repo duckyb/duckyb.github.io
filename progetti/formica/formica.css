@@ -1,0 +1,111 @@
+@font-face {
+  font-family: GoodDog;
+  src: url('fonts/GoodDog.otf');
+
+  font-family: OpenSans;
+  src: url('fonts/OpenSans.ttf');
+}
+body {
+  margin: 0;
+  padding: 0;
+  background-position: right;
+  background-color: rgb(65, 64, 69);
+}
+.content > * {
+  vertical-align: top;
+}
+.col-left {
+  color: white;
+  overflow: hidden;
+  display: inline-block;
+  width: 21%;
+  padding: 2%;
+  margin: auto;
+}
+.col-center {
+  min-width: 605px; min-height: 605px;
+  display: inline-block;
+  width: 46%;
+  padding: 2%;
+  text-align: center;
+}
+.col-right {
+  display: inline-block;
+  width: 21%;
+  padding: 2%;
+}
+img {
+  border: thin solid black;
+  height: 200px;
+  width: 200px;
+  position: relative;
+  margin-top: 0px;
+  z-index: -1;
+  bottom: -80px;
+}
+header {
+  /*background-color: #FFD2C4;*/
+  background-color: rgb(230,220,220);
+  color: #ff5111;
+  padding-bottom: 30px;
+  padding-top: 50px;
+  margin-bottom: 20px;
+  border-bottom: thick solid rgb(210,200,200);
+}
+h1 {
+  display: block;
+  text-align: center;
+  font-family: 'Lobster', serif;
+  width: 600px;
+  margin: auto;
+  font-size: 3em;
+}
+table {
+  border-collapse: collapse;
+  border: thick solid #302e2d;
+  margin: auto;
+}
+table td {
+  width: 3px;
+  height: 3px;
+  border: thin solid rgb(222,222,222);
+}
+input[type=button] {
+  font-family: 'Lato', sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 10px;
+  padding: 5px;
+  width: 150px;
+  height: 45px;
+  background-color: rgb(184, 184, 184);
+  color: #302e2d;
+  border: 3px solid #302e2d;
+  border-radius: 4px;
+}
+input[type=button]:active {
+  background-color: #302e2d;
+  color: white;
+  border: medium solid #302e2d;
+  transition-duration: '2s';
+}
+span {
+  font-family: 'OpenSans', sans-serif;
+  display: block;
+  margin-top: 15px;
+}
+ul  {
+  padding-left:0;
+}
+ul li  {
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
+p, h2, li {
+  font-family: 'Lato', sans-serif;
+  font-size: 18px;
+}
+#steps {
+  font-weight: bold;
+  font-size: 18px;
+}

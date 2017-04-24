@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="tictactoe.css">
+    <script src="tictactoe.js" charset="utf-8"></script>
+    <title>Tic Tac Toe</title>
+  </head>
+  <body>
+    <div class="top-row">
+      <h1>Trìs!</h1>
+    </div>
+    <div class="middle-row">
+      <table>
+        <tr id="riga1">
+          <td id="cella00"><img id="tic11" class="tic" src="img/tic.png" alt="">
+                        <img id="tac11" class="tac" src="img/tac.png" alt="">
+          </td>
+          <td id="cella01"><img id="tic12" class="tic" src="img/tic.png" alt="">
+                        <img id="tac12" class="tac" src="img/tac.png" alt="">
+          </td>
+          <td id="cella02"><img id="tic13" class="tic" src="img/tic.png" alt="">
+                        <img id="tac13" class="tac" src="img/tac.png" alt="">
+          </td>
+        </tr>
+        <tr id="riga2">
+          <td id="cella10"><img id="tic21" class="tic" src="img/tic.png" alt="">
+                        <img id="tac21" class="tac" src="img/tac.png" alt="">
+          </td>
+          <td id="cella11"><img id="tic22" class="tic" src="img/tic.png" alt="">
+                        <img id="tac22" class="tac" src="img/tac.png" alt="">
+          </td>
+          <td id="cella12"><img id="tic23" class="tic" src="img/tic.png" alt="">
+                        <img id="tac23" class="tac" src="img/tac.png" alt="">
+          </td>
+        </tr>
+        <tr id="riga3">
+          <td id="cella20"><img id="tic31" class="tic" src="img/tic.png" alt="">
+                        <img id="tac31" class="tac" src="img/tac.png" alt="">
+          </td>
+          <td id="cella21"><img id="tic32" class="tic" src="img/tic.png" alt="">
+                        <img id="tac32" class="tac" src="img/tac.png" alt="">
+          </td>
+          <td id="cella22"><img id="tic33" class="tic" src="img/tic.png" alt="">
+                        <img id="tac33" class="tac" src="img/tac.png" alt="">
+          </td>
+        </tr>
+      </table>
+      <div class="pausa" id="pausa">
+        <span id="messP"></span>
+      </div>
+      <!-- <img id="emoji" src="img/smile.png" alt="Smiling Emoji"> -->
+    </div>
+    <div class="bottom-row">
+        <!-- Come vincere: Posiziona tre simboli uguali in senso verticale, orizzontale o diagonale. -->
+      <span id="punteggio">Cronologia Vittorie: </span>
+    </div>
+  </body>
+</html>

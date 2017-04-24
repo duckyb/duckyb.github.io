@@ -1,0 +1,152 @@
+@font-face {
+  font-family: Riffic;
+  src: url("fonts/riffic/riffic.otf");
+
+  font-family: Adelle;
+  src: url("fonts/adelle/adellebold.ttf");
+
+  font-family: OpenRegular;
+  src: url("fonts/open-sans/opensans-regular.ttf");
+
+  font-family: OpenLight;
+  src: url("fonts/open-sans/opensans-lightitalic.ttf");
+}
+html {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font: 75% georgia, sans-serif;
+  line-height: 1.88889;
+  color: #555753;
+  margin: 0;
+  padding: 0;
+}
+h1 {
+  text-align: center;
+  color: #00374F;
+  font-family: Adelle, sans-serif;
+  display: block;
+  width: auto;
+  height: 100%;
+  margin: auto;
+  font-size: 91px;
+  white-space: nowrap;
+  overflow: hidden;
+}
+h1:before, h1:after {
+  content: " ⸺ ";
+  color: red;
+  font-size: 0.8em;
+  font-weight: lighter;
+}
+img {
+  height: 100px;
+  width: 100px;
+  display: block;
+  position: relative;
+  margin: auto;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+table {
+  border-collapse: separate;
+  border-spacing: 0px;
+  text-align: center;
+  display: inline-block;
+  width: 402px;
+  margin: auto;
+  margin-top: 30px;
+  margin-bottom: 60px;
+  z-index: 1;
+  transition-duration: .2s;
+}
+table td {
+  position: relative;
+  height: 132px;
+  width: 132px;
+  text-align: center;
+  margin: -3px;
+  border: thick solid #CCE4FB;
+  z-index: -1;
+}
+.pausa {
+  background-color: #CCE4FB;
+  display: inline-block;
+  position: absolute;
+  width: 422px;
+  height: 297px;
+  margin-left: -412px; /* sovrapponi */
+  margin-top: 20px;
+  border-radius: 25px;
+  text-align: center;
+  padding-top: 150px;
+  z-index: 2;
+  opacity: .8;
+  transition-duration: .7s;
+}
+.top-row {
+  height: 200px;
+  background-color: #F1F8FF;
+}
+.middle-row {
+  border-top: thick solid #DD3B2A;
+  position: relative;
+  text-align: center;
+}
+.bottom-row {
+  text-align: center;
+  border-top: thick solid #CCE4FB;
+  background-color: #EDF6FF;
+  box-shadow: 0px 500px 0px 500px #EDF6FF;
+}
+span {
+  display: block;
+  color: #0F2A36;
+  font-family: 'OpenRegular' ,sans-serif;
+  padding: 20px;
+  width: 300px;
+  margin: auto;
+  font-size: 30px;
+}
+
+.tac {
+  position: relative;
+  margin-top: -115px;
+  z-index: -1;
+  opacity: 0;
+}
+.tic
+{
+  position: relative;
+  z-index: 1;
+  opacity: 0;
+}
+
+#punteggio {
+  padding: 0px;
+  display: inline-block;
+  width: 80%;
+  overflow: auto;
+}
+#punteggio img {
+  position: relative;
+  bottom: -17px;
+}
+/* regole specifiche per togliere il bordo esterno della tabella */
+/*su*/
+#cella00, #cella01, #cella02 {
+  border-top: none;
+}
+/*giu*/
+#cella20, #cella21, #cella22 {
+  border-bottom: none;
+}
+/*sinistra*/
+#cella00, #cella10, #cella20 {
+  border-left: none;
+}
+/*destra*/
+#cella02, #cella12, #cella22 {
+  border-right: none;
+}
