@@ -90,13 +90,13 @@ function muoviFormica() {
   switch (colorpicker) {
     case 'white':{
       cambiaColore(formica, 'black');
-      ruota('orario');
+      ruota('antiorario');
       passo();
       break;
     }
     case 'black':{
       cambiaColore(formica, 'white');
-      ruota('antiorario');
+      ruota('orario');
       passo();
       break;
     }
