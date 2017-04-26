@@ -156,7 +156,7 @@ var formica;
 var direzione;
 var moto = false;
 var colorpicker;
-var direzione = 'left';
+var direzione = 'right';
 var ripeti;
 var contastep = 0;
 // costanti
